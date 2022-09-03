@@ -1,4 +1,4 @@
-# Chatbot-IBM-Watson
+# Troubleshooting Guidance using IBM Assistant ChatBot
 Building the chatbot via IBM on VMware Snapshot and Storage troubleshooting
 
 This chatbot is specifically built on IBM Watson Assistant environment and has the hierarchical topology and interactive conversational dialogues to query and troubleshoot support based architectural procedure towards VMware Snapshot and Storage related issues.
