@@ -1,0 +1,343 @@
+ATS initialization Failed during datastore mount,ATS_Initialization_Failed
+ATS,ATS_Initialization_Failed
+What are the best practices to follow for snapshot ?,Best_Practice
+Snapshot best practices,Best_Practice
+What are the best practices to follow for storage in VMware ?,Best_Procedure
+Best Procedure,Best_Procedure
+Datastore best procedure,Best_Procedure
+A required file was not found,Cannot_Find_Disk
+Disk is missing,Cannot_Find_Disk
+disk not found,Cannot_Find_Disk
+Not found,Cannot_Find_Disk
+The system cannot find the file specified,Cannot_Find_Disk
+Cannot find the disk,Cannot_Find_Disk
+Backup Process,Cannot_Find_Disk
+Disk is deleted,Cannot_Find_Disk
+Content ID mismatch,CID_PID_mismatch
+the parent virtual disk has been modified since the child was created,CID_PID_mismatch
+Disk Chain Inconsistency,CID_PID_mismatch
+CID/PID mismatch,CID_PID_mismatch
+LUN as snapshot,Datastore_detected_as_snapshot
+Datastore detected as snapshot,Datastore_detected_as_snapshot
+LUN detected as snapshot,Datastore_detected_as_snapshot
+Procedure for adding the datastore,Datastore_Tips_Tricks
+Mount Process,Datastore_Tips_Tricks
+Full understanding of Snapshot,Deep_Dive
+Concept of Snapshot,Deep_Dive
+Do you have any docs to know about snapshots in deep ?,Deep_Dive
+Device Resource Busy,Device_Resource_Busy
+Busy,Device_Resource_Busy
+I dont have the error message listed,Error_Not_Listed
+My error is not listed here,Error_Not_Listed
+Error not found,Error_Not_Listed
+I have different issue,Error_Not_Listed
+I have different issue that is not listed here,Error_Not_Listed
+Unable to access virtual machine configuration,Fie_Lock_Issue
+Failed to lock the file,Fie_Lock_Issue
+Failed to lock the file or One or more disks are busy.,Fie_Lock_Issue
+File lock,Fie_Lock_Issue
+Host owning the lock on the vmdk is,Fie_Lock_Issue
+Too many file locked,Fie_Lock_Issue
+Unable to access a file filename since it is locked,Fie_Lock_Issue
+Unable to access file since it is locked.,Fie_Lock_Issue
+Unable to access the disk due to file lock,Fie_Lock_Issue
+Why are you here?,General_About_You
+Where were you born?,General_About_You
+Where are you from?,General_About_You
+What's your name?,General_About_You
+What should I know about you?,General_About_You
+What languages do you speak?,General_About_You
+Tell me something about yourself,General_About_You
+Tell me about your life,General_About_You
+Let us talk about you,General_About_You
+I want to set up the chat bot for my shop,General_About_You
+How can I configure you?,General_About_You
+How do you function?,General_About_You
+How old are you?,General_About_You
+Introduce your self,General_About_You
+Who are you?,General_About_You
+Can I use another language?,General_About_You
+About you,General_About_You
+Describe your self,General_About_You
+Do you have a name?,General_About_You
+Do you know who you are?,General_About_You
+Tell me about what kind of things you do?,General_Agent_Capabilities
+Can you please give me a list of the types of things you can help me with?,General_Agent_Capabilities
+What are you capable of?,General_Agent_Capabilities
+What are you good at?,General_Agent_Capabilities
+What are your skills?,General_Agent_Capabilities
+I do not know what to ask,General_Agent_Capabilities
+I'd like to know what type of questions you can answer for me.,General_Agent_Capabilities
+What are you used for?,General_Agent_Capabilities
+What can I ask you to do?,General_Agent_Capabilities
+What are my options that you can help with?,General_Agent_Capabilities
+What are you able to deal with?,General_Agent_Capabilities
+What are you able to understand?,General_Agent_Capabilities
+Can you tell me what services you are able to help me with?,General_Agent_Capabilities
+Do you have a list of things I can talk to you about?,General_Agent_Capabilities
+Help now,General_Agent_Capabilities
+"Hi, what do you do?",General_Agent_Capabilities
+How can I use you?,General_Agent_Capabilities
+How can you help me?,General_Agent_Capabilities
+What do you do?,General_Agent_Capabilities
+What do you handle?,General_Agent_Capabilities
+What else can you help me with?,General_Agent_Capabilities
+What features are in here?,General_Agent_Capabilities
+How can you solve my problems?,General_Agent_Capabilities
+How do I use you?,General_Agent_Capabilities
+Is there anything you can help me with?,General_Agent_Capabilities
+What is this 4?,General_Agent_Capabilities
+What kinds of things can you do?,General_Agent_Capabilities
+Where can I find the frequently asked questions?,General_Agent_Capabilities
+What are my options?,General_Agent_Capabilities
+Tell me something,General_Agent_Capabilities
+Can I speak to a live person?,General_Connect_to_Agent
+Can I connect to an agent?,General_Connect_to_Agent
+Call agent,General_Connect_to_Agent
+Pls connect,General_Connect_to_Agent
+Please let me talk to a human being.,General_Connect_to_Agent
+Please connect me to a live agent,General_Connect_to_Agent
+Please assist me to get to an agent,General_Connect_to_Agent
+Operator please,General_Connect_to_Agent
+Need help from human,General_Connect_to_Agent
+I would like to speak to someone,General_Connect_to_Agent
+I would like to speak to a human,General_Connect_to_Agent
+I want to talk to a person,General_Connect_to_Agent
+I want an agent to help me,General_Connect_to_Agent
+I want a manager,General_Connect_to_Agent
+I want agent,General_Connect_to_Agent
+Is there anyone there I can actually talk to for real?,General_Connect_to_Agent
+I need to speak to a representative. How would I go about doing so?,General_Connect_to_Agent
+I don't want to talk to you,General_Connect_to_Agent
+I don't want to talk to a bot.,General_Connect_to_Agent
+How can I skip the recorded menu and go straight to a live person?,General_Connect_to_Agent
+Hi can you transfer me,General_Connect_to_Agent
+Do not want a robot?,General_Connect_to_Agent
+Customer service representative please.,General_Connect_to_Agent
+Could you please transfer me to your master?,General_Connect_to_Agent
+Contact person,General_Connect_to_Agent
+Connect me to a live operator please.,General_Connect_to_Agent
+Can you connect me with a real person?,General_Connect_to_Agent
+Can you assist me to connect to an agent?,General_Connect_to_Agent
+Can I talk to someone?,General_Connect_to_Agent
+Can I speak with somebody?,General_Connect_to_Agent
+Can I speak to an advisor?,General_Connect_to_Agent
+Send me to an agent,General_Connect_to_Agent
+Where is the closest agent?,General_Connect_to_Agent
+"Yes, take me to a real person",General_Connect_to_Agent
+Agent help,General_Connect_to_Agent
+"A real agent, please.",General_Connect_to_Agent
+Can I speak to a human please?,General_Connect_to_Agent
+Put me through to someone,General_Connect_to_Agent
+Good evening,General_Greetings
+How are things going?,General_Greetings
+How have you been?,General_Greetings
+Hi advisor,General_Greetings
+How are you today?,General_Greetings
+Hey you,General_Greetings
+Hey twin,General_Greetings
+Hey there all,General_Greetings
+Hey there,General_Greetings
+Hey how are you doing,General_Greetings
+Greetings,General_Greetings
+Have you been well?,General_Greetings
+How is it going?,General_Greetings
+How r u?,General_Greetings
+Looking good eve,General_Greetings
+Ok take me back,General_Greetings
+What's new?,General_Greetings
+What's up?,General_Greetings
+Who is this?,General_Greetings
+You there,General_Greetings
+Hello,General_Greetings
+Hello Agent,General_Greetings
+Hello I am looking for some help here,General_Greetings
+Hi there,General_Greetings
+Good to see you,General_Greetings
+Good morning,General_Greetings
+Good day,General_Greetings
+How can you prove you are a human?,General_Human_or_Bot
+Am I chatting with a human?,General_Human_or_Bot
+Am I talking to a Bot?,General_Human_or_Bot
+Am I talking to a person or am I talking to an AI?,General_Human_or_Bot
+Am I talking to Watson?,General_Human_or_Bot
+Are you a human or a bot?,General_Human_or_Bot
+Are you a robot?,General_Human_or_Bot
+Are you human?,General_Human_or_Bot
+Are you even real?,General_Human_or_Bot
+Are you real?,General_Human_or_Bot
+"Tell me, are you a human or no?",General_Human_or_Bot
+Is this a computer?,General_Human_or_Bot
+Tell me a joke,General_Jokes
+I am getting bored,General_Jokes
+I'm bored,General_Jokes
+I want a joke,General_Jokes
+One more joke,General_Jokes
+Surprise me with something hilarious,General_Jokes
+Tell me something funny,General_Jokes
+What do you do for fun?,General_Jokes
+What is your favorite joke?,General_Jokes
+Do you like humor?,General_Jokes
+Another joke,General_Jokes
+Are there jokes?,General_Jokes
+Can you tell a joke?,General_Jokes
+Can you tell me a joke?,General_Jokes
+Do you have a joke?,General_Jokes
+Do you have humor?,General_Jokes
+Do you like fun?,General_Jokes
+Everyone hates you,General_Negative_Feedback
+Do not like you?,General_Negative_Feedback
+Why are you so annoying?,General_Negative_Feedback
+You're too stupid,General_Negative_Feedback
+You're really irritating,General_Negative_Feedback
+You're really frustrating,General_Negative_Feedback
+You do not seem smart,General_Negative_Feedback
+You are very frustrating,General_Negative_Feedback
+You are on my nerves,General_Negative_Feedback
+You are having delusions,General_Negative_Feedback
+Why are you stupid?,General_Negative_Feedback
+Robots are boring,General_Negative_Feedback
+Stupid,General_Negative_Feedback
+Robots are stupid,General_Negative_Feedback
+Quit annoying me,General_Negative_Feedback
+It is annoying,General_Negative_Feedback
+I hate you,General_Negative_Feedback
+I hate this!,General_Negative_Feedback
+I do not like you,General_Negative_Feedback
+Hate you,General_Negative_Feedback
+Brilliant!,General_Positive_Feedback
+You are the best,General_Positive_Feedback
+This is great,General_Positive_Feedback
+You've been so helpful :),General_Positive_Feedback
+You the man,General_Positive_Feedback
+You're a genius!,General_Positive_Feedback
+You gave me exactly what I need!,General_Positive_Feedback
+You are wonderful,General_Positive_Feedback
+You are great,General_Positive_Feedback
+You are awesome,General_Positive_Feedback
+This is so cool,General_Positive_Feedback
+This is good,General_Positive_Feedback
+Thank you,General_Positive_Feedback
+Ok thank you,General_Positive_Feedback
+Love your work,General_Positive_Feedback
+I'm looking forward to working with you again! :),General_Positive_Feedback
+I like what you did there! :),General_Positive_Feedback
+How cool is this?,General_Positive_Feedback
+Can't believe you are that good,General_Positive_Feedback
+I'd like proof of a secure chat,General_Security_Assurance
+Protection hacks?,General_Security_Assurance
+Precautions hackers?,General_Security_Assurance
+Is this conversation secure?,General_Security_Assurance
+Is this a trusted chat site?,General_Security_Assurance
+Is this an official chat?,General_Security_Assurance
+Is there a reason to distrust this chat?,General_Security_Assurance
+Is my payment information secure?,General_Security_Assurance
+Is my card info secure?,General_Security_Assurance
+In what way can I tell if my plastic is safe?,General_Security_Assurance
+How safe is my data?,General_Security_Assurance
+Conversation secure?,General_Security_Assurance
+Customer info secured?,General_Security_Assurance
+Do you have protection against hacks?,General_Security_Assurance
+How do I know if my card info is kept safe?,General_Security_Assurance
+How do I know this chat is not a scam?,General_Security_Assurance
+How is my credit card info secured?,General_Security_Assurance
+Can I be sure that my stored card details are held securely?,General_Security_Assurance
+Are you safe on hackers?,General_Security_Assurance
+Are you safe?,General_Security_Assurance
+Why would I trust this chat?,General_Security_Assurance
+Will my conversation remain secured?,General_Security_Assurance
+What safety measures are used to ensure that chat is secure?,General_Security_Assurance
+What makes this chat trustworthy?,General_Security_Assurance
+What guards do you have in place to protect your customer's data?,General_Security_Assurance
+Secure conversation?,General_Security_Assurance
+HA Agent Failed,HA_Agent_Failed
+Agent failed,HA_Agent_Failed
+Input/output error,Input_Output_Error
+Disk Error,Input_Output_Error
+LUN storage issue,Input_Output_Error
+Bad file descriptor,Input_Output_Error
+Checksum Failed,Input_Output_Error
+Invalid,Invalid_snapshot_configuration
+invalid snapshot configuration detected,Invalid_snapshot_configuration
+Invalid snapshot configuration,Invalid_snapshot_configuration
+Detected an invalid snapshot configuration,Invalid_snapshot_configuration
+an invalid snapshot configuration was detected,Invalid_snapshot_configuration
+Main Menu,Main_Menu
+Go to the main menu,Main_Menu
+Start over,Main_Menu
+Main menu Please,Main_Menu
+permission denied,NFS_Mount_Issue
+Unable to mount nfs datastore,NFS_Mount_Issue
+nfs server mount,NFS_Mount_Issue
+mount nfs volume,NFS_Mount_Issue
+NFS issue,NFS_Mount_Issue
+NFS unmount issue,NFS_Unmount
+NFS SIOC enabled,NFS_Unmount
+NFS SIOC,NFS_Unmount
+Noooo,No
+No,No
+Still fails,No
+Still does not work,No
+Nope,No
+Did not help,No
+I have already tried it and it still fails,No
+I was waste of time,No
+No query as of now,No_Query
+No further queries,No_Query
+No I will connect sometime later,No_Query
+Please enhance your chatbot with new errors,No_Query
+No space left on device.,No_Space_Left
+Not enough disk space.,No_Space_Left
+datastore inaccesible,No_Space_Left
+An error occurred while taking a snapshot: There is not enough space on the file system for the selected operation,No_Space_Left
+"An error occurred while taking a snapshot: There is not enough space on the file system for the selected operation.""",No_Space_Left
+Fil3_FileIO,No_Space_Left
+Insufficient disk space on datastore,No_Space_Left
+Max no space retries,No_Space_Left
+"No, I will connect later",No_VMware_Support
+"No, I will try some other time.",No_VMware_Support
+FAQ on snapshot removal,Remove_Consolidate_FAQ
+FAQ on snapshot deletion,Remove_Consolidate_FAQ
+FAQ on consolidation,Remove_Consolidate_FAQ
+I need help with snapshot creation,Snapshot_Creation
+I have issues with snapshot creation,Snapshot_Creation
+Create Snapshot,Snapshot_Creation
+Creation of snapshot failing,Snapshot_Creation
+I am unable to create snapshot,Snapshot_Creation
+I am unable to take snapshot,Snapshot_Creation
+Take Snapshot,Snapshot_Creation
+Snapshot Creation is failing on multiple VMs,Snapshot_Creation
+I am unable to consolidate snapshot,Snapshot_Deletion
+I have issues with snapshot deletion,Snapshot_Deletion
+I am unable to delete snapshot,Snapshot_Deletion
+Deletion of snapshot failing,Snapshot_Deletion
+Delete Snapshot,Snapshot_Deletion
+Process,Snapshot_Tips_FAQs
+Storage Architecture,Storage_Architecture
+Unable to mount the datastore,Storage_Datastore_Mount
+I have issues mounting the datastore,Storage_Datastore_Mount
+I am not able to mount the datastore,Storage_Datastore_Mount
+Mount datastore issue,Storage_Datastore_Mount
+I have issues unmounting the datastore,Storage_Datastore_UnMount
+Unable to unmount the datastore,Storage_Datastore_UnMount
+Unmount datastore issue,Storage_Datastore_UnMount
+I am not able to unmount the datastore,Storage_Datastore_UnMount
+Deleting snapshot,Task_Removal_Stuck
+Snapshot is being removed 99%,Task_Removal_Stuck
+Snapshot is being removed 95%,Task_Removal_Stuck
+Removing snapshot,Task_Removal_Stuck
+Snapshot removal task is under progress,Task_Removal_Stuck
+Stuck,Task_Removal_Stuck
+Frozen,Task_Removal_Stuck
+VMFS Layout,VMFS_Layout
+It helped.,Yes
+Yes.,Yes
+That was really helpful,Yes
+Thank you. You were of great help,Yes
+Yes I have further query,Yes_Query
+Yes Query,Yes_Query
+Yes I would like to continue with other queries,Yes_Query
+Yes I would like to continue with other query,Yes_Query
+Yes. Please connect me to an agent,Yes_VMware_Support
+Yes,Yes_VMware_Support
+I need VMware support,Yes_VMware_Support

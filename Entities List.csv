@@ -1,0 +1,34 @@
+ATS_initialization_failed,ATS Initialization Failed,ats initialization failed,ats,host does not support ATS,Failed to initialize VMFS distributed locking,Failed to reserve volume
+Best_Practice,Best Practice,Snapshot Best Practice,Best Practices,What are the snapshot best practices,Snapshot Practice
+Cannot_Find_Disk,Not Found, A required file was not found,Disk is deleted,Disk is missing,disk not found,Not found,The system cannot find the file specified,cannot find disk,Cannot find the disk
+Chain_Inconsistency,Parent disk modified,The parent virtual disk has been modified,since the child was created,Content ID mismatch,the capacity of each link is different, parent virtual disk has been modified,The parent virtual disk has been modified since the child,The content ID of the parent virtual disk does not match the
+currentdate
+Datastore_detected_as_snapshot,Datastore lun detected as snapshot,lun detected as snapshot,detected as snapshot,datastore detected as snapshot
+Deep_Device,Deep Dive,Deep Dive,Full understanding,Concepts of Snapshot,Snapshot full understanding
+Device_Resource_Busy,Device_Resource_Busy,Datastore Name: Datastore VMFS uuid:' is in use.,Device or Resource Busy,one or more virtual machine still registered on it.
+File_Lock,Failed to lock the file,Failed to lock the file or One or more disks are busy.,File lock,Host owning the lock on the vmdk is,Unable to access file,Too many file locked,Unable to access a file filename since it is locked,Unable to access the disk due to file lock
+HA_Agent_Failed,HA Agent failed,HA agent on host failed to quiesce file activity,the host is reachable and its vSphere HA agent is running.,HA agent failed
+holidays,Easter,pasqua
+holidays,ThanksGiving,thankgiving,thanksgivings
+holidays,Christmas,chirstmas,chistmas,chrismas,xmas
+Input_Output_Error,Input/Output error,Bad file descriptor,Checksum Failed,Input/output error,Datastore inaccessible,LUN failure, LUN storage issue
+Invalid_Snapshot,invalid snapshot configuration detected,an invalid snapshot,Detected an invalid snapshot,Invalid snapshot configuration,invalid snapshot
+Mount_Process,Mount Process,FAQ for datastore mount process,Datastore Mount process documentation,Datastore Mount Procedure
+NFS_Mount,nfs mount issue,nfs issue,nfs mount issue,nfs,nfs file system mount issue,Got error 13 from mount call,client is permitted to mount it,(Permission denied) trying to mount Server,The mount request was denied by the NFS server,permission denied
+NFS_Unmount,NFS Unmount,NFS unmount failed,"Call ""HostDatastoreSystem.RemoveDatastore failed",because Storage I/O control is enabled,SIOC Enabled
+No_Space_Left,No space on the disk,There is not enough space on the file system,not enough space,Insufficient disk space on datastore,Max no space retries,Not enough disk space,No space left on device,Datastore space is full,Space is full,There is not enough space on the file for the selected operation
+phone,us phone,/\b\d{3}[-.]?\d{3}[-.]?\d{4}\b/
+Removal_Task_Stuck,Snapshot Stuck,Removing snapshot,Deleting snapshot,Snapshot is being removed 95%,Snapshot is being removed 99%.,Snapshot removal task is under progress,Removal task hanging at 99%,Change tracking invalid,disk in use
+Remove_Consolidate_FAQ,Remove Consolidate FAQ,Snapshot Removal FAQ,Snapshot Deletion FAQ,Snapshot consolidation FAQ,Consolidation FAQ
+reply,no,nada,nah,nope
+reply,yes,okay,sure,yeah,yep,yup
+specialist,Giulio
+specialist,Victor
+specialist,Jennifer,Jenn
+specialist,Brandon
+specialist,Cari
+Yes,You were of great help
+Yes,yes that worked
+Yes,Yes. that helped
+Yes,That was very helpful
+Yes,Yes.

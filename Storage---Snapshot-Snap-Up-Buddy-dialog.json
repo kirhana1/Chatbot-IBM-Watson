@@ -1,0 +1,5300 @@
+{
+  "intents": [
+    {
+      "intent": "ATS_Initialization_Failed",
+      "examples": [
+        {
+          "text": "ATS"
+        },
+        {
+          "text": "ATS initialization Failed during datastore mount"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Best_Practice",
+      "examples": [
+        {
+          "text": "Snapshot best practices"
+        },
+        {
+          "text": "What are the best practices to follow for snapshot ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Best_Procedure",
+      "examples": [
+        {
+          "text": "Best Procedure"
+        },
+        {
+          "text": "Datastore best procedure"
+        },
+        {
+          "text": "What are the best practices to follow for storage in VMware ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cannot_Find_Disk",
+      "examples": [
+        {
+          "text": "A required file was not found"
+        },
+        {
+          "text": "Backup Process"
+        },
+        {
+          "text": "Cannot find the disk"
+        },
+        {
+          "text": "Disk is deleted"
+        },
+        {
+          "text": "Disk is missing"
+        },
+        {
+          "text": "disk not found"
+        },
+        {
+          "text": "Not found"
+        },
+        {
+          "text": "The system cannot find the file specified"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CID_PID_mismatch",
+      "examples": [
+        {
+          "text": "CID/PID mismatch"
+        },
+        {
+          "text": "Content ID mismatch"
+        },
+        {
+          "text": "Disk Chain Inconsistency"
+        },
+        {
+          "text": "the parent virtual disk has been modified since the child was created"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Datastore_detected_as_snapshot",
+      "examples": [
+        {
+          "text": "Datastore detected as snapshot"
+        },
+        {
+          "text": "LUN as snapshot"
+        },
+        {
+          "text": "LUN detected as snapshot"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Datastore_Tips_Tricks",
+      "examples": [
+        {
+          "text": "Mount Process"
+        },
+        {
+          "text": "Procedure for adding the datastore"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Deep_Dive",
+      "examples": [
+        {
+          "text": "Concept of Snapshot"
+        },
+        {
+          "text": "Do you have any docs to know about snapshots in deep ?"
+        },
+        {
+          "text": "Full understanding of Snapshot"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Device_Resource_Busy",
+      "examples": [
+        {
+          "text": "Busy"
+        },
+        {
+          "text": "Device Resource Busy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Error_Not_Listed",
+      "examples": [
+        {
+          "text": "Error not found"
+        },
+        {
+          "text": "I dont have the error message listed"
+        },
+        {
+          "text": "I have different issue"
+        },
+        {
+          "text": "I have different issue that is not listed here"
+        },
+        {
+          "text": "My error is not listed here"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Fie_Lock_Issue",
+      "examples": [
+        {
+          "text": "Failed to lock the file"
+        },
+        {
+          "text": "Failed to lock the file or One or more disks are busy."
+        },
+        {
+          "text": "File lock"
+        },
+        {
+          "text": "Host owning the lock on the vmdk is"
+        },
+        {
+          "text": "Too many file locked"
+        },
+        {
+          "text": "Unable to access a file filename since it is locked"
+        },
+        {
+          "text": "Unable to access file since it is locked."
+        },
+        {
+          "text": "Unable to access the disk due to file lock"
+        },
+        {
+          "text": "Unable to access virtual machine configuration"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "HA_Agent_Failed",
+      "examples": [
+        {
+          "text": "Agent failed"
+        },
+        {
+          "text": "HA Agent Failed"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Input_Output_Error",
+      "examples": [
+        {
+          "text": "Bad file descriptor"
+        },
+        {
+          "text": "Checksum Failed"
+        },
+        {
+          "text": "Disk Error"
+        },
+        {
+          "text": "Input/output error"
+        },
+        {
+          "text": "LUN storage issue"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Invalid_snapshot_configuration",
+      "examples": [
+        {
+          "text": "an invalid snapshot configuration was detected"
+        },
+        {
+          "text": "Detected an invalid snapshot configuration"
+        },
+        {
+          "text": "Invalid"
+        },
+        {
+          "text": "Invalid snapshot configuration"
+        },
+        {
+          "text": "invalid snapshot configuration detected"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Main_Menu",
+      "examples": [
+        {
+          "text": "Go to the main menu"
+        },
+        {
+          "text": "Main Menu"
+        },
+        {
+          "text": "Main menu Please"
+        },
+        {
+          "text": "Start over"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NFS_Mount_Issue",
+      "examples": [
+        {
+          "text": "mount nfs volume"
+        },
+        {
+          "text": "NFS issue"
+        },
+        {
+          "text": "nfs server mount"
+        },
+        {
+          "text": "permission denied"
+        },
+        {
+          "text": "Unable to mount nfs datastore"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NFS_Unmount",
+      "examples": [
+        {
+          "text": "NFS SIOC"
+        },
+        {
+          "text": "NFS SIOC enabled"
+        },
+        {
+          "text": "NFS unmount issue"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "Did not help"
+        },
+        {
+          "text": "I have already tried it and it still fails"
+        },
+        {
+          "text": "I was waste of time"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Noooo"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "Still does not work"
+        },
+        {
+          "text": "Still fails"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No_Query",
+      "examples": [
+        {
+          "text": "No further queries"
+        },
+        {
+          "text": "No I will connect sometime later"
+        },
+        {
+          "text": "No query as of now"
+        },
+        {
+          "text": "Please enhance your chatbot with new errors"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No_Space_Left",
+      "examples": [
+        {
+          "text": "An error occurred while taking a snapshot: There is not enough space on the file system for the selected operation"
+        },
+        {
+          "text": "An error occurred while taking a snapshot: There is not enough space on the file system for the selected operation.\""
+        },
+        {
+          "text": "datastore inaccesible"
+        },
+        {
+          "text": "Fil3_FileIO"
+        },
+        {
+          "text": "Insufficient disk space on datastore"
+        },
+        {
+          "text": "Max no space retries"
+        },
+        {
+          "text": "No space left on device."
+        },
+        {
+          "text": "Not enough disk space."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No_VMware_Support",
+      "examples": [
+        {
+          "text": "No, I will connect later"
+        },
+        {
+          "text": "No, I will try some other time."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Remove_Consolidate_FAQ",
+      "examples": [
+        {
+          "text": "FAQ on consolidation"
+        },
+        {
+          "text": "FAQ on snapshot deletion"
+        },
+        {
+          "text": "FAQ on snapshot removal"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Snapshot_Creation",
+      "examples": [
+        {
+          "text": "Create Snapshot"
+        },
+        {
+          "text": "Creation of snapshot failing"
+        },
+        {
+          "text": "I am unable to create snapshot"
+        },
+        {
+          "text": "I am unable to take snapshot"
+        },
+        {
+          "text": "I have issues with snapshot creation"
+        },
+        {
+          "text": "I need help with snapshot creation"
+        },
+        {
+          "text": "Snapshot Creation is failing on multiple VMs"
+        },
+        {
+          "text": "Take Snapshot"
+        }
+      ]
+    },
+    {
+      "intent": "Snapshot_Deletion",
+      "examples": [
+        {
+          "text": "Delete Snapshot"
+        },
+        {
+          "text": "Deletion of snapshot failing"
+        },
+        {
+          "text": "I am unable to consolidate snapshot"
+        },
+        {
+          "text": "I am unable to delete snapshot"
+        },
+        {
+          "text": "I have issues with snapshot deletion"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Snapshot_Tips_FAQs",
+      "examples": [
+        {
+          "text": "Process"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Storage_Architecture",
+      "examples": [
+        {
+          "text": "Storage Architecture"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Storage_Datastore_Mount",
+      "examples": [
+        {
+          "text": "I am not able to mount the datastore"
+        },
+        {
+          "text": "I have issues mounting the datastore"
+        },
+        {
+          "text": "Mount datastore issue"
+        },
+        {
+          "text": "Unable to mount the datastore"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Storage_Datastore_UnMount",
+      "examples": [
+        {
+          "text": "I am not able to unmount the datastore"
+        },
+        {
+          "text": "I have issues unmounting the datastore"
+        },
+        {
+          "text": "Unable to unmount the datastore"
+        },
+        {
+          "text": "Unmount datastore issue"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Task_Removal_Stuck",
+      "examples": [
+        {
+          "text": "Deleting snapshot"
+        },
+        {
+          "text": "Frozen"
+        },
+        {
+          "text": "Removing snapshot"
+        },
+        {
+          "text": "Snapshot is being removed 95%"
+        },
+        {
+          "text": "Snapshot is being removed 99%"
+        },
+        {
+          "text": "Snapshot removal task is under progress"
+        },
+        {
+          "text": "Stuck"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "VMFS_Layout",
+      "examples": [
+        {
+          "text": "VMFS Layout"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "It helped."
+        },
+        {
+          "text": "Thank you. You were of great help"
+        },
+        {
+          "text": "That was really helpful"
+        },
+        {
+          "text": "Yes."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes_Query",
+      "examples": [
+        {
+          "text": "Yes I have further query"
+        },
+        {
+          "text": "Yes I would like to continue with other queries"
+        },
+        {
+          "text": "Yes I would like to continue with other query"
+        },
+        {
+          "text": "Yes Query"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes_VMware_Support",
+      "examples": [
+        {
+          "text": "I need VMware support"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes. Please connect me to an agent"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ATS_initialization_failed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ATS Initialization Failed",
+          "synonyms": [
+            "ats",
+            "ats initialization failed",
+            "Failed to initialize VMFS distributed locking",
+            "Failed to reserve volume",
+            "host does not support ATS"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Best_Practice",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Best Practice",
+          "synonyms": [
+            "Best Practices",
+            "Snapshot Best Practice",
+            "Snapshot Practice",
+            "What are the snapshot best practices"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Cannot_Find_Disk",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Not Found",
+          "synonyms": [
+            " A required file was not found",
+            "cannot find disk",
+            "Cannot find the disk",
+            "Disk is deleted",
+            "Disk is missing",
+            "disk not found",
+            "Not found",
+            "The system cannot find the file specified"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Chain_Inconsistency",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Parent disk modified",
+          "synonyms": [
+            "Content ID mismatch",
+            " parent virtual disk has been modified",
+            "since the child was created",
+            "the capacity of each link is different",
+            "The content ID of the parent virtual disk does not match the",
+            "The parent virtual disk has been modified",
+            "The parent virtual disk has been modified since the child"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "currentdate",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Datastore_detected_as_snapshot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Datastore lun detected as snapshot",
+          "synonyms": [
+            "datastore detected as snapshot",
+            "detected as snapshot",
+            "lun detected as snapshot"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Deep_Device",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Deep Dive",
+          "synonyms": [
+            "Concepts of Snapshot",
+            "Deep Dive",
+            "Full understanding",
+            "Snapshot full understanding"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Device_Resource_Busy",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Device_Resource_Busy",
+          "synonyms": [
+            "Datastore Name: Datastore VMFS uuid:' is in use.",
+            "Device or Resource Busy",
+            "one or more virtual machine still registered on it."
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "File_Lock",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Failed to lock the file",
+          "synonyms": [
+            "Failed to lock the file or One or more disks are busy.",
+            "File lock",
+            "Host owning the lock on the vmdk is",
+            "Too many file locked",
+            "Unable to access a file filename since it is locked",
+            "Unable to access file",
+            "Unable to access the disk due to file lock"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "HA_Agent_Failed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "HA Agent failed",
+          "synonyms": [
+            "HA agent failed",
+            "HA agent on host failed to quiesce file activity",
+            "the host is reachable and its vSphere HA agent is running."
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "holidays",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Christmas",
+          "synonyms": [
+            "chirstmas",
+            "chistmas",
+            "chrismas",
+            "xmas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Easter",
+          "synonyms": [
+            "pasqua"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ThanksGiving",
+          "synonyms": [
+            "thankgiving",
+            "thanksgivings"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Input_Output_Error",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Input/Output error",
+          "synonyms": [
+            "Bad file descriptor",
+            "Checksum Failed",
+            "Datastore inaccessible",
+            "Input/output error",
+            "LUN failure",
+            " LUN storage issue"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Invalid_Snapshot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "invalid snapshot configuration detected",
+          "synonyms": [
+            "an invalid snapshot",
+            "Detected an invalid snapshot",
+            "invalid snapshot",
+            "Invalid snapshot configuration"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Mount_Process",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mount Process",
+          "synonyms": [
+            "Datastore Mount Procedure",
+            "Datastore Mount process documentation",
+            "FAQ for datastore mount process"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NFS_Mount",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nfs mount issue",
+          "synonyms": [
+            "client is permitted to mount it",
+            "Got error 13 from mount call",
+            "nfs",
+            "nfs file system mount issue",
+            "nfs issue",
+            "nfs mount issue",
+            "permission denied",
+            "(Permission denied) trying to mount Server",
+            "The mount request was denied by the NFS server"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NFS_Unmount",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "NFS Unmount",
+          "synonyms": [
+            "because Storage I/O control is enabled",
+            "Call \"HostDatastoreSystem.RemoveDatastore failed",
+            "NFS unmount failed",
+            "SIOC Enabled"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "No_Space_Left",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No space on the disk",
+          "synonyms": [
+            "Datastore space is full",
+            "Insufficient disk space on datastore",
+            "Max no space retries",
+            "No space left on device",
+            "Not enough disk space",
+            "not enough space",
+            "Space is full",
+            "There is not enough space on the file for the selected operation",
+            "There is not enough space on the file system"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "us phone",
+          "patterns": [
+            "\\b\\d{3}[-.]?\\d{3}[-.]?\\d{4}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Removal_Task_Stuck",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Snapshot Stuck",
+          "synonyms": [
+            "Change tracking invalid",
+            "Deleting snapshot",
+            "disk in use",
+            "Removal task hanging at 99%",
+            "Removing snapshot",
+            "Snapshot is being removed 95%",
+            "Snapshot is being removed 99%.",
+            "Snapshot removal task is under progress"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Remove_Consolidate_FAQ",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Remove Consolidate FAQ",
+          "synonyms": [
+            "Consolidation FAQ",
+            "Snapshot consolidation FAQ",
+            "Snapshot Deletion FAQ",
+            "Snapshot Removal FAQ"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nada",
+            "nah",
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "okay",
+            "sure",
+            "yeah",
+            "yep",
+            "yup"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "specialist",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Brandon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cari",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Giulio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jennifer",
+          "synonyms": [
+            "Jenn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Victor",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "That was very helpful",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes. that helped",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes that worked",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "You were of great help",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "title": "Can you please enter the exact error message ? I'm not understanding. Or do you want me to list out the main menu again ?",
+            "options": [
+              {
+                "label": "Go to Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1571348052517"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot creation issues. Would you please share the error message regarding the no space issue that you are getting while creating the snapshot ? "
+              },
+              {
+                "text": "Would you please share the exact error message regarding the no space issue that you are getting while creating the snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1626504726934",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1626504726936",
+      "previous_sibling": "slot_2_1626505860823"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1626518725650",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1626518725651",
+      "previous_sibling": "slot_5_1626518943853"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot creation issues. Would you please share the error message  that you are getting regarding invalid configuration while creating the snapshot ? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting regarding invalid configuration while creating the snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1571348482687",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1571348719398"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for choosing the Snapshot Creation Issue Section. Below is the list of all the most popular Snapshot issues detected in most of the customers environment. Choose your error to continue ?",
+            "options": [
+              {
+                "label": "Detected an invalid snapshot configuration",
+                "value": {
+                  "input": {
+                    "text": "Detected an invalid snapshot configuration"
+                  }
+                }
+              },
+              {
+                "label": "Failed to lock the file",
+                "value": {
+                  "input": {
+                    "text": "File lock issues"
+                  }
+                }
+              },
+              {
+                "label": "Larger than the maximum size supported by datastore",
+                "value": {
+                  "input": {
+                    "text": "Larger than the maximum size supported by datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1626497677869",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1626497855609",
+      "previous_sibling": "response_9_1626497855675"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1626505860823",
+      "context": {
+        "No_Space_Left__No": "@No_Space_Left:(No space on the disk)"
+      },
+      "conditions": "@No_Space_Left:(No space on the disk)",
+      "event_name": "input",
+      "dialog_node": "handler_1_1626505860823"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1626514639012",
+      "context": {
+        "Removal_Task_Stuck": "@Removal_Task_Stuck:(Snapshot Stuck)"
+      },
+      "conditions": "@Removal_Task_Stuck:(Snapshot Stuck)",
+      "event_name": "input",
+      "dialog_node": "handler_13_1626514639012"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please enter the exact error message regarding Removal task stuck error. You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_12_1626514639012",
+      "event_name": "focus",
+      "dialog_node": "handler_14_1626514639012",
+      "previous_sibling": "handler_13_1626514639012"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot deletion issues. Would you please share the error message regarding the removal stuck issue  that you are getting while deleting/consolidating the snapshot ? "
+              },
+              {
+                "text": "Would you please share the exact error message  regarding the removal stuck issue that you are getting while deleting/consolidating the snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_11_1626514639010",
+      "event_name": "focus",
+      "dialog_node": "handler_15_1626514639012",
+      "previous_sibling": "slot_12_1626514639012"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1626515516437",
+      "context": {
+        "CannotFindDisk": "@Cannot_Find_Disk:(Not Found)"
+      },
+      "conditions": "@Cannot_Find_Disk:(Not Found)",
+      "event_name": "input",
+      "dialog_node": "handler_19_1626515516437"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message regarding the disk no found issue that you are getting while deleting or consolidating the snapshot ",
+            "options": [
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_18_1626515516437",
+      "event_name": "focus",
+      "dialog_node": "handler_20_1626515516437",
+      "previous_sibling": "handler_19_1626515516437"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot deletion issues. Would you please share the exact error message regarding the disk no found that you are getting while deleting/consolidating the snapshot ? "
+              },
+              {
+                "text": "Would you please share the exact error message regarding the disk no found that you are getting while deleting/consolidating the snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_17_1626515516436",
+      "event_name": "focus",
+      "dialog_node": "handler_21_1626515516437",
+      "previous_sibling": "slot_18_1626515516437"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_6_1626497677869",
+      "conditions": "@sys-date",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1626497869568"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1626517115708",
+      "conditions": "@sys-date",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1626517115710"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1658631052460",
+      "conditions": "@sys-date",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1658631052467"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1626504090968",
+      "context": {
+        "File_lock_error": "@File_Lock:(Failed to lock the file)"
+      },
+      "conditions": "@File_Lock:(Failed to lock the file)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1626504090968"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1626512288153",
+      "context": {
+        "Chain_Inconsistency": "@Chain_Inconsistency"
+      },
+      "conditions": "@Chain_Inconsistency",
+      "event_name": "input",
+      "dialog_node": "handler_3_1626512288153"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1626513734686",
+      "context": {
+        "Input_Output_Error": "@Input_Output_Error:(Input/Output error)"
+      },
+      "conditions": "@Input_Output_Error:(Input/Output error)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1626513734686"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for choosing the Snapshot Creation Issue Section. Below is the list of all the most popular Snapshot issues detected in most of the customers environment. Choose your error to continue ?",
+            "options": [
+              {
+                "label": "Detected an invalid snapshot configuration",
+                "value": {
+                  "input": {
+                    "text": "Detected an invalid snapshot configuration"
+                  }
+                }
+              },
+              {
+                "label": "Failed to lock the file",
+                "value": {
+                  "input": {
+                    "text": "File lock issues"
+                  }
+                }
+              },
+              {
+                "label": "Larger than the maximum size supported by datastore",
+                "value": {
+                  "input": {
+                    "text": "Larger than the maximum size supported by datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1626517115708",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1626517115710",
+      "previous_sibling": "response_4_1626517115710"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1626518147876",
+      "context": {
+        "Deep_Dive": "@Deep_Device:(Deep Dive)"
+      },
+      "conditions": "@Deep_Device:(Deep Dive)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1626518147876"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for choosing the Snapshot Creation Issue Section. Below is the list of all the most popular Snapshot issues detected in most of the customers environment. Choose your error to continue ?",
+            "options": [
+              {
+                "label": "Detected an invalid snapshot configuration",
+                "value": {
+                  "input": {
+                    "text": "Detected an invalid snapshot configuration"
+                  }
+                }
+              },
+              {
+                "label": "Failed to lock the file",
+                "value": {
+                  "input": {
+                    "text": "File lock issues"
+                  }
+                }
+              },
+              {
+                "label": "Larger than the maximum size supported by datastore",
+                "value": {
+                  "input": {
+                    "text": "Larger than the maximum size supported by datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658631052460",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1658631052467",
+      "previous_sibling": "response_4_1658631052467"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658633245718",
+      "context": {
+        "Datastore_Mount_Error1": "@ATS_initialization_failed"
+      },
+      "conditions": "@ATS_initialization_failed",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658633245718"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658637189586",
+      "context": {
+        "Datastore_Mount_Error2": "@Datastore_detected_as_snapshot"
+      },
+      "conditions": "@Datastore_detected_as_snapshot",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658637189586"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658650438848",
+      "context": {
+        "Datastore_Mount_Error3": "@NFS_Mount"
+      },
+      "conditions": "@NFS_Mount",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658650438848"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658651801897",
+      "context": {
+        "Best_Practice": "@Best_Practice:(Best Practice)"
+      },
+      "conditions": "@Best_Practice:(Best Practice)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658651801897"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658677595032",
+      "context": {
+        "Best_Practice": "@Best_Practice:(Best Practice)"
+      },
+      "conditions": "@Best_Practice:(Best Practice)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658677595032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658678864475",
+      "context": {
+        "Deep_Dive": "@Deep_Device:(Deep Dive)"
+      },
+      "conditions": "@Deep_Device:(Deep Dive)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658678864475"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658679600225",
+      "context": {
+        "Deep_Dive": "@Deep_Device:(Deep Dive)"
+      },
+      "conditions": "@Deep_Device:(Deep Dive)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658679600225"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658682197733",
+      "context": {
+        "Datastore_UnMount_Error1": "@Device_Resource_Busy"
+      },
+      "conditions": "@Device_Resource_Busy",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658682197733"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658682559314",
+      "context": {
+        "Datastore_UnMount_Error3": "@HA_Agent_Failed"
+      },
+      "conditions": "@HA_Agent_Failed",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658682559314"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658683112643",
+      "context": {
+        "Datastore_UnMount_Error3": "@NFS_Unmount"
+      },
+      "conditions": "@NFS_Unmount",
+      "event_name": "input",
+      "dialog_node": "handler_3_1658683112643"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message regarding the file lock issue that you received. Or do you want me to take you to the main menu ?",
+            "options": [
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1626504090968",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1626504090968",
+      "previous_sibling": "handler_3_1626504090968"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message regarding the no space issue that you are getting while creating the snapshot . Or would you like to go to the main menu ?",
+            "options": [
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1626505860823",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1626505860823",
+      "previous_sibling": "handler_1_1626505860823"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message regarding the disk chain inconsistency issue that you are getting while creating the snapshot ",
+            "options": [
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1626512288153",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1626512288153",
+      "previous_sibling": "handler_3_1626512288153"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please enter the exact error message regarding input/output error. You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1626513734686",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1626513734686",
+      "previous_sibling": "handler_3_1626513734686"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait while I will fetch the details for Snapshot Deep Dive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1626518147876",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1626518147876",
+      "previous_sibling": "handler_3_1626518147876"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1658633245718",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658633245718",
+      "previous_sibling": "handler_3_1658633245718"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1658637189586",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658637189586",
+      "previous_sibling": "handler_3_1658637189586"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1658650438848",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658650438848",
+      "previous_sibling": "handler_3_1658650438848"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will fetch the details for Snapshot Best Practices."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1658651801897",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658651801897",
+      "previous_sibling": "handler_3_1658651801897"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will fetch the details for Snapshot Best Practices."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1658677595032",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658677595032",
+      "previous_sibling": "handler_3_1658677595032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait while I will fetch the details for Snapshot Deep Dive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1658678864475",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658678864475",
+      "previous_sibling": "handler_3_1658678864475"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait while I will fetch the details for Snapshot Deep Dive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1658679600225",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658679600225",
+      "previous_sibling": "handler_3_1658679600225"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1658682197733",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658682197733",
+      "previous_sibling": "handler_3_1658682197733"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1658682559314",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658682559314",
+      "previous_sibling": "handler_3_1658682559314"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1658683112643",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1658683112643",
+      "previous_sibling": "handler_3_1658683112643"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot creation issues. Would you please share the error message regarding the file lock that you are getting while creating the snapshot ? "
+              },
+              {
+                "text": "Would you please share the exact error message regarding the file lock that you are getting while creating the snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1626504090967",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626504090968"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot creation issues. Would you please share the error regarding the disk chain inconsistency message  that you are getting while creating the snapshot ? "
+              },
+              {
+                "text": "Would you please share the exact error message regarding the disk chain inconsistency that you are getting while creating the snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1626512288151",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626512288153",
+      "previous_sibling": "slot_2_1626512288153"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see that you have not entered the exact error message. Please enter the error message that you are getting during the input/output operation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626513734683",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626513734686",
+      "previous_sibling": "slot_2_1626513734686"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1626518147874",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626518147876",
+      "previous_sibling": "slot_2_1626518147876"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with snapshot creation issues. Would you please share the error message  that you are getting regarding ATS during datastore mount ? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting regarding ATS initialization ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1658633245714",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658633245718"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with datastore mount issue. Would you please share the error message that you are getting regarding datastore detected snapshot during mount process ? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting regarding this error about datastore detected as snapshot ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1658637189581",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658637189586"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I will help you with the datastore mount issue. Would you please share the error message that you are getting regarding the NFS server or datastore during the mounting process? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting regarding this issue about the datastore failing with NFS mount?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1658650438829",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658650438848"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1658651801894",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658651801897",
+      "previous_sibling": "slot_2_1658651801897"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1658677595023",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658677595032",
+      "previous_sibling": "slot_2_1658677595032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1658678864467",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658678864475",
+      "previous_sibling": "slot_2_1658678864475"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1658679600217",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658679600225",
+      "previous_sibling": "slot_2_1658679600225"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with Datastore Unmount. Would you please share the error message  that you are getting regarding Device busy t ? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting while unmounting the datastore ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1658682197726",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658682197733"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will help you with datastore unmount issue. Would you please share the error message that you are getting regarding HA Agent failure ? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting regarding this error about HA Agent?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1658682559308",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658682559314"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I will help you with the datastore unmount issue. Would you please share the error message that you are getting regarding the NFS server or datastore during the unmounting process? "
+              },
+              {
+                "text": "Would you please share the exact error message that you are getting regarding this issue about the datastore failing with NFS umount?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1658683112636",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1658683112643"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1626518943853",
+      "context": {
+        "Remove_Consolidate_FAQ___": "@Remove_Consolidate_FAQ:(Remove Consolidate FAQ)"
+      },
+      "conditions": "@Remove_Consolidate_FAQ:(Remove Consolidate FAQ)",
+      "event_name": "input",
+      "dialog_node": "handler_6_1626518943854"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1626500362885",
+      "context": {
+        "Snapshot_Creation_Error1": "@Invalid_Snapshot:(invalid snapshot configuration detected)"
+      },
+      "conditions": "@Invalid_Snapshot:(invalid snapshot configuration detected)",
+      "event_name": "input",
+      "dialog_node": "handler_7_1626500362886"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1626517564926",
+      "context": {
+        "Best_Practice": "@Best_Practice:(Best Practice)"
+      },
+      "conditions": "@Best_Practice:(Best Practice)",
+      "event_name": "input",
+      "dialog_node": "handler_7_1626517564926"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait while I will fetch the details for Snapshot Removal/Consolidation FAQ"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1626518943853",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1626518943854",
+      "previous_sibling": "handler_6_1626518943854"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please confirm the exact error message that you received with respect to the invalid configuration error.You will not be able to proceed further until you enter the exact error message.  Or would you like to start over again by going to the main menu ? ",
+            "options": [
+              {
+                "label": "Take me to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1626500362885",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1626500362886",
+      "previous_sibling": "handler_7_1626500362886"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1626512712672",
+      "conditions": "@sys-date",
+      "event_name": "generic",
+      "dialog_node": "handler_8_1626512712674"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will fetch the details for Snapshot Best Practices."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1626517564926",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1626517564926",
+      "previous_sibling": "handler_7_1626517564926"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1658681734660",
+      "conditions": "@sys-date",
+      "event_name": "generic",
+      "dialog_node": "handler_8_1658681734666"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for choosing the Snapshot Creation Issue Section. Below is the list of all the most popular Snapshot issues detected in most of the customers environment. Choose your error to continue ?",
+            "options": [
+              {
+                "label": "Detected an invalid snapshot configuration",
+                "value": {
+                  "input": {
+                    "text": "Detected an invalid snapshot configuration"
+                  }
+                }
+              },
+              {
+                "label": "Failed to lock the file",
+                "value": {
+                  "input": {
+                    "text": "File lock issues"
+                  }
+                }
+              },
+              {
+                "label": "Larger than the maximum size supported by datastore",
+                "value": {
+                  "input": {
+                    "text": "Larger than the maximum size supported by datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1626512712672",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1626512712674",
+      "previous_sibling": "response_10_1626512712674"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1626517564925",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1626517564926",
+      "previous_sibling": "slot_6_1626517564926"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for choosing the Snapshot Creation Issue Section. Below is the list of all the most popular Snapshot issues detected in most of the customers environment. Choose your error to continue ?",
+            "options": [
+              {
+                "label": "Detected an invalid snapshot configuration",
+                "value": {
+                  "input": {
+                    "text": "Detected an invalid snapshot configuration"
+                  }
+                }
+              },
+              {
+                "label": "Failed to lock the file",
+                "value": {
+                  "input": {
+                    "text": "File lock issues"
+                  }
+                }
+              },
+              {
+                "label": "Larger than the maximum size supported by datastore",
+                "value": {
+                  "input": {
+                    "text": "Larger than the maximum size supported by datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1658681734660",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1658681734666",
+      "previous_sibling": "response_10_1658681734666"
+    },
+    {
+      "type": "standard",
+      "title": "No Query",
+      "output": {
+        "generic": [
+          {
+            "title": "I am sorry that I was not able to help you with your issue. However, I would like to assure that the chatbot is being upgraded and enhanced with new errors on quarterly basis. Please check back with us regarding your error again. Till then, you have a wonderful day ahead. Please feel free to disconnect the chatbot or choose Yes if you would like to continue with other query.",
+            "options": [
+              {
+                "label": "Yes Query",
+                "value": {
+                  "input": {
+                    "text": "Yes Query"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#No_Query",
+      "dialog_node": "node_10_1626658902843",
+      "previous_sibling": "node_6_1626658511583"
+    },
+    {
+      "type": "frame",
+      "title": "Removal task is stuck",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Task_Removal_Stuck",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1626514639010",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1626513734683",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "See you later."
+              },
+              {
+                "text": "Come back soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1571348052517",
+      "conditions": "#General_Ending",
+      "dialog_node": "node_1_1571347555233",
+      "previous_sibling": "node_4_1571702189832"
+    },
+    {
+      "type": "frame",
+      "title": "Invalid Snapshot Error",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Invalid_snapshot_configuration",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1571348482687",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1658681734660",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "File Lock Issue",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Fie_Lock_Issue",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626504090967",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1626503115391",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Disk Chain Inconsistency",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#CID_PID_mismatch",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626512288151",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1626504726934",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Input/Output Error",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Input_Output_Error",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626513734683",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1626512712672",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Snapshot Tips and FAQs",
+      "output": {
+        "generic": [
+          {
+            "title": "Here are some cool links for your reference regarding snapshots.",
+            "options": [
+              {
+                "label": "Best practices for using VMware snapshots",
+                "value": {
+                  "input": {
+                    "text": "Best Practice"
+                  }
+                }
+              },
+              {
+                "label": "Deep Dive into SnapShots",
+                "value": {
+                  "input": {
+                    "text": "Deep Dive"
+                  }
+                }
+              },
+              {
+                "label": "Remove and Consolidate FAQ",
+                "value": {
+                  "input": {
+                    "text": "Remove Snapshot FAQ"
+                  }
+                }
+              },
+              {
+                "label": "Go to the Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Snapshot_Tips_FAQs",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626517115708",
+      "previous_sibling": "node_17_1626515516436"
+    },
+    {
+      "type": "standard",
+      "title": "Deep Dive",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the whole concept of Snapshot. http://www.vmwarearena.com/deep-dive-the-ultimate-guide-to-master-vmware-snapshot/ . Was this helpful ??",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Deep_Dive",
+      "dialog_node": "node_1_1626518147874",
+      "previous_sibling": "node_1_1658651801894"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome - Back",
+      "output": {
+        "generic": [
+          {
+            "title": "Welcome Back buddy  !!!!!! I see that you still have the curiosity circling around. Buzz on the options below and I can help you with it accordingly.",
+            "options": [
+              {
+                "label": "Snapshot Creation",
+                "value": {
+                  "input": {
+                    "text": "I have issues with snapshot creation"
+                  }
+                }
+              },
+              {
+                "label": "Snapshot Deletion",
+                "value": {
+                  "input": {
+                    "text": "I have issues with snapshot deletion"
+                  }
+                }
+              },
+              {
+                "label": "Snapshot Tips and FAQs",
+                "value": {
+                  "input": {
+                    "text": "Process"
+                  }
+                }
+              },
+              {
+                "label": "Storage Datastore Mount",
+                "value": {
+                  "input": {
+                    "text": "I have issues with mounting datastore"
+                  }
+                }
+              },
+              {
+                "label": "Storage Datastore Unmount",
+                "value": {
+                  "input": {
+                    "text": "I have issues with unmounting the datastore"
+                  }
+                }
+              },
+              {
+                "label": "DataStore Tips and Tricks",
+                "value": {
+                  "input": {
+                    "text": "Procedure for adding the datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "welcome",
+      "dialog_node": "node_1_1626658145272",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Main Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please hold on for a sec while I take you back to the main menu !!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1626658145272"
+      },
+      "conditions": "#Main_Menu",
+      "dialog_node": "node_1_1626659750711",
+      "previous_sibling": "node_10_1626658902843"
+    },
+    {
+      "type": "standard",
+      "title": "Storage Datastore Mount",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that you have issues with datastore mount. Please choose what's your error?",
+            "options": [
+              {
+                "label": "ATS initialization failed",
+                "value": {
+                  "input": {
+                    "text": "ATS"
+                  }
+                }
+              },
+              {
+                "label": "Datastore Detected as Snapshot",
+                "value": {
+                  "input": {
+                    "text": "Lun detected as snapshot"
+                  }
+                }
+              },
+              {
+                "label": "NFS mount issue",
+                "value": {
+                  "input": {
+                    "text": "NFS issue"
+                  }
+                }
+              },
+              {
+                "label": "Error Not listed",
+                "value": {
+                  "input": {
+                    "text": "Error Not listed"
+                  }
+                }
+              },
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Storage_Datastore_Mount",
+      "dialog_node": "node_1_1658631052460",
+      "previous_sibling": "node_6_1626497677869"
+    },
+    {
+      "type": "frame",
+      "title": "ATS Initialization failed",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ATS_Initialization_Failed",
+      "dialog_node": "node_1_1658633245714",
+      "previous_sibling": "node_1_1571348482687"
+    },
+    {
+      "type": "frame",
+      "title": "Lun Detected as Snapshot",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Datastore_detected_as_snapshot",
+      "dialog_node": "node_1_1658637189581",
+      "previous_sibling": "node_1_1658682197726"
+    },
+    {
+      "type": "frame",
+      "title": "NFS Mount Issue",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#NFS_Mount_Issue",
+      "dialog_node": "node_1_1658650438829",
+      "previous_sibling": "node_1_1658682559308"
+    },
+    {
+      "type": "standard",
+      "title": "Datastore Tips and Tricks",
+      "output": {
+        "generic": [
+          {
+            "title": "Here are some links for your reference regarding storage on VMware documentations.",
+            "options": [
+              {
+                "label": "Best procedure for configuring storage",
+                "value": {
+                  "input": {
+                    "text": "Best Procedure"
+                  }
+                }
+              },
+              {
+                "label": "Storage Architecture in VMware",
+                "value": {
+                  "input": {
+                    "text": "Storage architecture"
+                  }
+                }
+              },
+              {
+                "label": "Understanding VMFS System  Layout",
+                "value": {
+                  "input": {
+                    "text": "VMFS layout"
+                  }
+                }
+              },
+              {
+                "label": "Go to the Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Datastore_Tips_Tricks",
+      "dialog_node": "node_1_1658651801894",
+      "previous_sibling": "node_1_1658677595023"
+    },
+    {
+      "type": "standard",
+      "title": "Best Procedure",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the documentation for the vSphere storage best procedure practices. https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.storage.doc/GUID-0C1B4D0A-F993-4F8A-8255-EE156A85C904.html. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Best_Procedure",
+      "dialog_node": "node_1_1658677595023",
+      "previous_sibling": "node_5_1626517564925"
+    },
+    {
+      "type": "standard",
+      "title": "Storage Architecture",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the Storage architecture of Vmware https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.storage.doc/GUID-18E6DA01-A81B-4C4B-9195-64600E9059AD.html. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Storage_Architecture",
+      "dialog_node": "node_1_1658678864467",
+      "previous_sibling": "node_1_1626518147874"
+    },
+    {
+      "type": "standard",
+      "title": "VMFS Layout",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the VMFS Layout https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/vmware-vmfs-tech-overview-white-paper.pdf. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#VMFS_Layout",
+      "dialog_node": "node_1_1658679600217",
+      "previous_sibling": "node_1_1658678864467"
+    },
+    {
+      "type": "frame",
+      "title": "Device Or Resource is busy",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Device_Resource_Busy",
+      "dialog_node": "node_1_1658682197726",
+      "previous_sibling": "node_1_1658633245714"
+    },
+    {
+      "type": "frame",
+      "title": "HA Agent Failed",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#HA_Agent_Failed",
+      "dialog_node": "node_1_1658682559308",
+      "previous_sibling": "node_1_1658637189581"
+    },
+    {
+      "type": "frame",
+      "title": "NFS Unmount Issue",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#NFS_Unmount",
+      "dialog_node": "node_1_1658683112636",
+      "previous_sibling": "node_1_1658650438829"
+    },
+    {
+      "type": "frame",
+      "title": "Disk not found",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Cannot_Find_Disk",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_17_1626515516436",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_11_1626514639010",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Tell me a joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why did the physics teacher break up with the biology teacher? There was no chemistry.\n\u000bQ: What did the computer do at lunchtime? A: Had a byte!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1571348052517",
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_3_1571348248781",
+      "previous_sibling": "node_1_1571347555233"
+    },
+    {
+      "type": "standard",
+      "title": "Capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can help you with many types of issues dealing with snapshot creation or deletion or reversion. Please help me with the error message first "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1571348052517",
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_3_1571348335466",
+      "previous_sibling": "node_8_1571348298608"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm looking forward to helping you today.   What can I do for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1571348052517",
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_4_1571702189832"
+    },
+    {
+      "type": "standard",
+      "title": "Best Practice",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the kb for the VMware Snapshot Best Practices. https://kb.vmware.com/s/article/1025279. Was it helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Best_Practice",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1626517564925",
+      "previous_sibling": "node_1_1626517115708"
+    },
+    {
+      "type": "standard",
+      "title": "Error Not Listed",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that the issue which you are facing is not matching with the error listed in our category. We are upgrading and enhancing our chatbot skills everyday and will ensure to add your error in near future. Would you like to query on any other errors further listed below ?",
+            "options": [
+              {
+                "label": "Yes Query",
+                "value": {
+                  "input": {
+                    "text": "Yes Query"
+                  }
+                }
+              },
+              {
+                "label": "No Query",
+                "value": {
+                  "input": {
+                    "text": "No Query"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Error_Not_Listed",
+      "dialog_node": "node_5_1626657863356",
+      "previous_sibling": "node_7_1626518725650"
+    },
+    {
+      "type": "standard",
+      "title": "Snapshot Creation",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that you have issues with snapshot creation. Below are the most common and popular errors prevailing since past 3 months regarding snapshot creation. Please choose what's your error?",
+            "options": [
+              {
+                "label": "Invalid snapshot configuration",
+                "value": {
+                  "input": {
+                    "text": "Invalid"
+                  }
+                }
+              },
+              {
+                "label": "File Lock",
+                "value": {
+                  "input": {
+                    "text": "Lock"
+                  }
+                }
+              },
+              {
+                "label": "No space Left",
+                "value": {
+                  "input": {
+                    "text": "Out of Space"
+                  }
+                }
+              },
+              {
+                "label": "CID/PID mismatch",
+                "value": {
+                  "input": {
+                    "text": "Disk Chain Inconsistency"
+                  }
+                }
+              },
+              {
+                "label": "Error Not listed",
+                "value": {
+                  "input": {
+                    "text": "Error Not Listed"
+                  }
+                }
+              },
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Snapshot_Creation",
+      "dialog_node": "node_6_1626497677869",
+      "previous_sibling": "node_1_1626658145272"
+    },
+    {
+      "type": "standard",
+      "title": "No Feedback",
+      "output": {
+        "generic": [
+          {
+            "title": "Oops.  !! I am sorry that it did not help you much. Do you want me to connect you with the VMware Support now ?",
+            "options": [
+              {
+                "label": "Yes for VMware Support",
+                "value": {
+                  "input": {
+                    "text": "Yes VMware Support"
+                  }
+                }
+              },
+              {
+                "label": "No for Some Other Time.",
+                "value": {
+                  "input": {
+                    "text": "No, I will connect with VMware later."
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#No",
+      "dialog_node": "node_6_1626501392517",
+      "previous_sibling": "node_7_1626500943947"
+    },
+    {
+      "type": "standard",
+      "title": "Yes Query",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am glad that you decided to continue chatting with me. Please continue with your query on the categories listed below"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1626658145272"
+      },
+      "conditions": "#Yes_Query",
+      "dialog_node": "node_6_1626658511583",
+      "previous_sibling": "node_5_1626657863356"
+    },
+    {
+      "type": "standard",
+      "title": "Yes Feedback",
+      "output": {
+        "generic": [
+          {
+            "title": "I am very glad that I was able to help you. You owe me a pizza-byte this Friday. Thank you for connecting with Snap-Up Buddy. Have a wonderful day ahead. !!! Please feel free to close the chat window or if you would like to continue then please select Yes Query below",
+            "options": [
+              {
+                "label": "Yes Query",
+                "value": {
+                  "input": {
+                    "text": "Yes Query"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_7_1626500943947",
+      "previous_sibling": "node_1_1658683112636"
+    },
+    {
+      "type": "frame",
+      "title": "No Space Left",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#No_Space_Left",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1626504726934",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1626504090967",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Snapshot Deletion",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that you have issues with snapshot deletion. Below are the most common and popular errors prevailing since past 3 months. Please choose what's your error?",
+            "options": [
+              {
+                "label": "Input/output error during snapshot deletion",
+                "value": {
+                  "input": {
+                    "text": "Disk Error"
+                  }
+                }
+              },
+              {
+                "label": "Removal task stops at 95% or 99%",
+                "value": {
+                  "input": {
+                    "text": "Frozen"
+                  }
+                }
+              },
+              {
+                "label": "The system cannot find the disk to remove",
+                "value": {
+                  "input": {
+                    "text": "Disk Missing"
+                  }
+                }
+              },
+              {
+                "label": "Error Not Listed",
+                "value": {
+                  "input": {
+                    "text": "Error Not Listed"
+                  }
+                }
+              },
+              {
+                "label": "Go to the Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Snapshot_Deletion",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1626512712672",
+      "previous_sibling": "node_1_1626512288151"
+    },
+    {
+      "type": "standard",
+      "title": "Remove and Consolidate FAQ",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the FAQ for snapshot removal/deletion https://kb.vmware.com/s/article/1023657. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Remove_Consolidate_FAQ",
+      "dialog_node": "node_7_1626518725650",
+      "previous_sibling": "node_1_1658679600217"
+    },
+    {
+      "type": "standard",
+      "title": "Storage Datastore Unmount",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that you have issues with datastore unmount. Please choose what's your error?",
+            "options": [
+              {
+                "label": "Device or Resource busy",
+                "value": {
+                  "input": {
+                    "text": "Busy"
+                  }
+                }
+              },
+              {
+                "label": "HA Agent Failed",
+                "value": {
+                  "input": {
+                    "text": "HA agent failed"
+                  }
+                }
+              },
+              {
+                "label": "NFS Unmount issue",
+                "value": {
+                  "input": {
+                    "text": "NFS SIOC"
+                  }
+                }
+              },
+              {
+                "label": "Error Not listed",
+                "value": {
+                  "input": {
+                    "text": "Error Not listed"
+                  }
+                }
+              },
+              {
+                "label": "Go to the main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Storage_Datastore_UnMount",
+      "dialog_node": "node_7_1658681734660",
+      "previous_sibling": "node_1_1658631052460"
+    },
+    {
+      "type": "standard",
+      "title": "Human or Bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm a Watson Powered Virtual Assistant.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1571348052517",
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_8_1571348298608",
+      "previous_sibling": "node_3_1571348248781"
+    },
+    {
+      "type": "folder",
+      "title": "General Chat",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1571348052517",
+      "previous_sibling": "node_1_1626659750711"
+    },
+    {
+      "type": "standard",
+      "title": "Yes_VMware_Support",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank your for requesting for VMware Support. I am connecting you to a live agent now......... Stay tuned. or Go to the main menu",
+            "options": [
+              {
+                "label": "Go to Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Yes_VMware_Support",
+      "dialog_node": "node_9_1626502828870",
+      "previous_sibling": "node_6_1626501392517"
+    },
+    {
+      "type": "standard",
+      "title": "No for VMware Support",
+      "output": {
+        "generic": [
+          {
+            "title": "We will surely be looking forward to connect with you again. Thank you and you have a nice day ahead. You may now close the browser or click on Yes below if you would like to conitnue",
+            "options": [
+              {
+                "label": "Yes Query",
+                "value": {
+                  "input": {
+                    "text": "Yes Query"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#No_VMware_Support",
+      "dialog_node": "node_9_1626503115391",
+      "previous_sibling": "node_9_1626502828870"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1626512712672",
+      "disabled": true,
+      "dialog_node": "response_10_1626512712674",
+      "previous_sibling": "handler_8_1626512712674"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the kb for the VMware Snapshot Best Practices. https://kb.vmware.com/s/article/1025279. Was it helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1626517564925",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_10_1626517564926",
+      "previous_sibling": "handler_9_1626517564926"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1658681734660",
+      "disabled": true,
+      "dialog_node": "response_10_1658681734666",
+      "previous_sibling": "handler_8_1658681734666"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For the error occurred in your environment, please ensure the datastore on which the VM is deployed is having enough free space. Watch out for space related alarms at VM/Host and Datastore Level. For more info, please refer the VMware KB https://kb.vmware.com/s/article/51613. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1626504726934",
+      "conditions": "true",
+      "dialog_node": "response_12_1626504726936",
+      "previous_sibling": "handler_11_1626504726936"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the FAQ for snapshot removal/deletion https://kb.vmware.com/s/article/1023657. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1626518725650",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_12_1626518725651",
+      "previous_sibling": "handler_11_1626518725651"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "The consolidation/Removal task hanging at 95% or 99% is in most cases related to 1.  Size of the virtual machine. Larger the size of the disk more time it will take to remove. 2. At the same time, please check for any storage latency issues to confirm storage performance https://kb.vmware.com/s/article/2001003 . Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_11_1626514639010",
+      "conditions": "true",
+      "dialog_node": "response_16_1626514639012",
+      "previous_sibling": "handler_15_1626514639012"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "This issue occurs if a virtual disk file or its snapshot disk is not present at the path specified in the Verify the path and structure of the VM files using the kb https://kb.vmware.com/s/article/1003757 Traverse through the history of the virtual machine log files to understand what exactly transpired on the VM disks. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_17_1626515516436",
+      "conditions": "true",
+      "dialog_node": "response_22_1626515516437",
+      "previous_sibling": "handler_21_1626515516437"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For the error occurred in your environment, please ensure there are no RDM/sharing disks attached and the mode of the scsi controller are set to normal. For more info, please refer the VMware KB https://kb.vmware.com/s/article/80246. Was this helpful ? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1571348482687",
+      "conditions": "true",
+      "dialog_node": "response_3_1571348718978",
+      "previous_sibling": "slot_8_1626500362885"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1626517115708",
+      "disabled": true,
+      "dialog_node": "response_4_1626517115710",
+      "previous_sibling": "handler_2_1626517115710"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1658631052460",
+      "disabled": true,
+      "dialog_node": "response_4_1658631052467",
+      "previous_sibling": "handler_2_1658631052467"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For the error occurred in your environment, please ensure there are no hung/failed/frozen backup issues or migration tasks for that specific VM. You can further use vmfsfilelockinfo -p command on that disk to determine the host that is locking the file. For more info, please refer the VMware KB https://kb.vmware.com/s/article/1038189. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1626504090967",
+      "conditions": "true",
+      "dialog_node": "response_6_1626504090968",
+      "previous_sibling": "slot_2_1626504090968"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For the error occurred in your environment, please ensure the parent and child disk consistency is intact using the command vmfkstools -D or vmkfstools -q.  For more info, please refer the VMware KB https://kb.vmware.com/s/article/1007969. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1626512288151",
+      "conditions": "true",
+      "dialog_node": "response_6_1626512288153",
+      "previous_sibling": "handler_5_1626512288153"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "This issue occurs if ESXi host has a problem accessing the underlying storage devices or data stores. Troubleshoot and resolve any issues with the underlying storage devices and connect with your storage vendor to further troubleshoot this For more info, please refer to the kb https://kb.vmware.com/s/article/1003680. Was this helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1626513734683",
+      "conditions": "true",
+      "dialog_node": "response_6_1626513734686",
+      "previous_sibling": "handler_5_1626513734686"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the whole concept of Snapshot. http://www.vmwarearena.com/deep-dive-the-ultimate-guide-to-master-vmware-snapshot/",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1626518147874",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_6_1626518147876",
+      "previous_sibling": "handler_5_1626518147876"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1626500943947",
+      "disabled": true,
+      "dialog_node": "response_6_1626659230203"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For the error occurred in your environment, please ensure the default plugin is NMP. You may refer to the vmware kb https://kb.vmware.com/s/article/83249 for further info. Did this resolution help ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658633245714",
+      "conditions": "true",
+      "dialog_node": "response_6_1658633245718",
+      "previous_sibling": "slot_2_1658633245718"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For this error, please ensure the datastore is not a part of any of the replication lun and the datastore uuid is different/unique. You may refer to the vmware kb https://kb.vmware.com/s/article/1011387 for further info. Did this resolution help ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658637189581",
+      "conditions": "true",
+      "dialog_node": "response_6_1658637189586",
+      "previous_sibling": "slot_2_1658637189586"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "For this error, please ensure the host has accessibility to the NFS server and all required ports are open. is not a part of any of the replication lun and the datastore uuid is different/unique. You may refer to the vmware kb https://kb.vmware.com/s/article/1005948 for further info. Did this resolution help ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658650438829",
+      "conditions": "true",
+      "dialog_node": "response_6_1658650438848",
+      "previous_sibling": "slot_2_1658650438848"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the kb for the VMware Snapshot Best Practices. https://kb.vmware.com/s/article/1025279. Was it helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658651801894",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_6_1658651801897",
+      "previous_sibling": "handler_5_1658651801897"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the kb for the VMware Snapshot Best Practices. https://kb.vmware.com/s/article/1025279. Was it helpful ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658677595023",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_6_1658677595032",
+      "previous_sibling": "handler_5_1658677595032"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the whole concept of Snapshot. http://www.vmwarearena.com/deep-dive-the-ultimate-guide-to-master-vmware-snapshot/",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658678864467",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_6_1658678864475",
+      "previous_sibling": "handler_5_1658678864475"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is the article to understand the whole concept of Snapshot. http://www.vmwarearena.com/deep-dive-the-ultimate-guide-to-master-vmware-snapshot/",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658679600217",
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_6_1658679600225",
+      "previous_sibling": "handler_5_1658679600225"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Please ensure the there are no VMs or templates inside the datastore before unmounting it. You may refer to the vmware kb https://kb.vmware.com/s/article/1015791 for further info. Did this resolution help ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658682197726",
+      "conditions": "true",
+      "dialog_node": "response_6_1658682197733",
+      "previous_sibling": "slot_2_1658682197733"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Please ensure the there the Datastore is not a part of the HA heartbeat datastore cluster. You may refer to the vmware blog https://www.yellow-bricks.com/2013/02/25/how-to-disable-datastore-heartbeating/ for further info. Did this resolution help ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658682559308",
+      "conditions": "true",
+      "dialog_node": "response_6_1658682559314",
+      "previous_sibling": "slot_2_1658682559314"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571348718978",
+      "output": {
+        "generic": [
+          {
+            "title": "Please ensure the there the NFS Datastore does not have SIOC enabled on it. You may refer to the vmware kb https://kb.vmware.com/s/article/2008507 for further info. Did this resolution help ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1658683112636",
+      "conditions": "true",
+      "dialog_node": "response_6_1658683112643",
+      "previous_sibling": "slot_2_1658683112643"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1626497677869",
+      "disabled": true,
+      "dialog_node": "response_9_1626497855675",
+      "previous_sibling": "handler_2_1626497869568"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_11_1626514639010",
+      "variable": "$Removal_Task_Stuck",
+      "dialog_node": "slot_12_1626514639012"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_17_1626515516436",
+      "variable": "$CannotFindDisk",
+      "dialog_node": "slot_18_1626515516437"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1626504090967",
+      "variable": "$File_lock_error",
+      "dialog_node": "slot_2_1626504090968",
+      "previous_sibling": "handler_5_1626504090968"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1626504726934",
+      "variable": "$No_Space_Left__No",
+      "dialog_node": "slot_2_1626505860823"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1626512288151",
+      "variable": "$Chain_Inconsistency",
+      "dialog_node": "slot_2_1626512288153"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1626513734683",
+      "variable": "$Input_Output_Error",
+      "dialog_node": "slot_2_1626513734686"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1626518147874",
+      "variable": "$Deep_Dive",
+      "dialog_node": "slot_2_1626518147876"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658633245714",
+      "variable": "$Datastore_Mount_Error1",
+      "dialog_node": "slot_2_1658633245718",
+      "previous_sibling": "handler_5_1658633245718"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658637189581",
+      "variable": "$Datastore_Mount_Error2",
+      "dialog_node": "slot_2_1658637189586",
+      "previous_sibling": "handler_5_1658637189586"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658650438829",
+      "variable": "$Datastore_Mount_Error3",
+      "dialog_node": "slot_2_1658650438848",
+      "previous_sibling": "handler_5_1658650438848"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658651801894",
+      "variable": "$Best_Practice",
+      "dialog_node": "slot_2_1658651801897"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658677595023",
+      "variable": "$Best_Practice",
+      "dialog_node": "slot_2_1658677595032"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658678864467",
+      "variable": "$Deep_Dive",
+      "dialog_node": "slot_2_1658678864475"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658679600217",
+      "variable": "$Deep_Dive",
+      "dialog_node": "slot_2_1658679600225"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658682197726",
+      "variable": "$Datastore_UnMount_Error1",
+      "dialog_node": "slot_2_1658682197733",
+      "previous_sibling": "handler_5_1658682197733"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658682559308",
+      "variable": "$Datastore_UnMount_Error3",
+      "dialog_node": "slot_2_1658682559314",
+      "previous_sibling": "handler_5_1658682559314"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1658683112636",
+      "variable": "$Datastore_UnMount_Error3",
+      "dialog_node": "slot_2_1658683112643",
+      "previous_sibling": "handler_5_1658683112643"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1626518725650",
+      "variable": "$Remove_Consolidate_FAQ___",
+      "dialog_node": "slot_5_1626518943853"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1626517564925",
+      "variable": "$Best_Practice",
+      "dialog_node": "slot_6_1626517564926"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1571348482687",
+      "variable": "$Snapshot_Creation_Error1",
+      "dialog_node": "slot_8_1626500362885",
+      "previous_sibling": "handler_1_1571348719398"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "title": "Hye there..!!!!  Welcome to Storage-Snap Chatbot domain designed by Kiran Raj K & powered by Python programming under the Mentorship of Amal Bhagat .  I can help you any  issues related to VMware Snapshots and Storage and guide you with the necessary Troubleshooting steps.. Please click on the category of the issues listed below.",
+            "options": [
+              {
+                "label": "Snapshot Creation",
+                "value": {
+                  "input": {
+                    "text": "I have issues with snapshot creation"
+                  }
+                }
+              },
+              {
+                "label": "Snapshot Deletion",
+                "value": {
+                  "input": {
+                    "text": "I have issues with snapshot deletion"
+                  }
+                }
+              },
+              {
+                "label": "Snapshot Tips and FAQs",
+                "value": {
+                  "input": {
+                    "text": "Process"
+                  }
+                }
+              },
+              {
+                "label": "Storage Datastore Mount",
+                "value": {
+                  "input": {
+                    "text": "I have issues mounting the datastore"
+                  }
+                }
+              },
+              {
+                "label": "Storage Datastore Unmount",
+                "value": {
+                  "input": {
+                    "text": "I have issues with unmounting the datastore"
+                  }
+                }
+              },
+              {
+                "label": "DataStore Tips and Tricks",
+                "value": {
+                  "input": {
+                    "text": "Procedure for adding the datastore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "mobile_phone": "610-555-1234"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Storage - Snapshot Snap-Up Buddy",
+  "language": "en",
+  "description": ""
+}
