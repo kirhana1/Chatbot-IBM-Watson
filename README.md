@@ -1,6 +1,8 @@
 # Chatbot-IBM-Watson
 Building the chatbot via IBM on VMware Snapshot and Storage troubleshooting
 
+This chatbot is specifically built on IBM Watson Assistant environment and has the hierarchical topology and interactive conversational dialogues to query and troubleshoot support based architectural procedure towards VMware Snapshot and Storage related issues.
+
 A user needs to have an account in IBM Watson Cloud to be able to create and use the Watson Assistant Services
 The account can be either free or paid version.
 
