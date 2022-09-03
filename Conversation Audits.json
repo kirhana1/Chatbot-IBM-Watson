@@ -1,0 +1,337 @@
+{
+  "report": {
+    "docType": "iam.identity-access-map",
+    "version": "1.0.0",
+    "createdById": "IBMid-5500093CW9",
+    "date": "2022-09-03T05:57:02.655Z",
+    "fullReport": true,
+    "displayName": "Kiran Raj",
+    "contact": "kiranraj.ba07@race.reva.edu.in"
+  },
+  "responses": [
+    {
+      "resource": {
+        "crn": "crn:v1:bluemix:public:conversation:us-south:a/18481b60b16c4a60ac6bb50ab0ac8de6:fc35eaf0-4b9a-4e5d-9ea7-a2581ecc7b1e::",
+        "displayName": "Watson Assistant-Kiran",
+        "serviceName": "conversation",
+        "resourceGroupId": "9bfa47c89a204cd183f85f8447025e52",
+        "resourceGroupName": "Default"
+      },
+      "access": [
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-a81e9f35-1fb4-4139-bfb8-8706c7934881",
+              "displayName": "Auto-generated service credentials"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+              },
+              "actions": [
+                {
+                  "action": "POST /conversation"
+                },
+                {
+                  "action": "conversation.skill.read"
+                },
+                {
+                  "action": "conversation.assistant.write"
+                },
+                {
+                  "action": "PUT /conversation"
+                },
+                {
+                  "action": "conversation.assistant.default"
+                },
+                {
+                  "action": "PATCH /conversation"
+                },
+                {
+                  "action": "conversation.assistant.list"
+                },
+                {
+                  "action": "conversation.assistant.legacy"
+                },
+                {
+                  "action": "conversation.logs.read"
+                },
+                {
+                  "action": "GET /conversation"
+                },
+                {
+                  "action": "conversation.skill.write"
+                },
+                {
+                  "action": "DELETE /conversation"
+                },
+                {
+                  "action": "conversation.assistant.read"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/serviceids/ServiceId-a81e9f35-1fb4-4139-bfb8-8706c7934881/policies/4a8dc4ed-7e6d-472b-90ae-4e64b61f4b3c"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-a81e9f35-1fb4-4139-bfb8-8706c7934881/policies/4a8dc4ed-7e6d-472b-90ae-4e64b61f4b3c"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "user": {
+              "id": "IBMid-5500093CW9",
+              "displayName": "Kiran Raj",
+              "contact": "kiranraj.ba07@race.reva.edu.in"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+              },
+              "actions": [
+                {
+                  "action": "POST /conversation"
+                },
+                {
+                  "action": "conversation.skill.read"
+                },
+                {
+                  "action": "conversation.assistant.write"
+                },
+                {
+                  "action": "PUT /conversation"
+                },
+                {
+                  "action": "conversation.assistant.default"
+                },
+                {
+                  "action": "PATCH /conversation"
+                },
+                {
+                  "action": "conversation.assistant.list"
+                },
+                {
+                  "action": "conversation.assistant.legacy"
+                },
+                {
+                  "action": "conversation.logs.read"
+                },
+                {
+                  "action": "GET /conversation"
+                },
+                {
+                  "action": "conversation.skill.write"
+                },
+                {
+                  "action": "DELETE /conversation"
+                },
+                {
+                  "action": "conversation.assistant.read"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/users/IBMid-5500093CW9/policies/f6d8edaa-3b86-4f7a-91ec-6c8093dc799d"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/users/IBMid-5500093CW9/policies/f6d8edaa-3b86-4f7a-91ec-6c8093dc799d"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator"
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete"
+                  },
+                  {
+                    "action": "cbr.rule.update"
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.create"
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve"
+                  },
+                  {
+                    "action": "iam.role.read"
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.delete"
+                  },
+                  {
+                    "action": "iam.policy.create"
+                  },
+                  {
+                    "action": "resource-controller.key.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.key.create"
+                  },
+                  {
+                    "action": "cbr.rule.create"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-access-tag"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create"
+                  },
+                  {
+                    "action": "resource-controller.alias.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history"
+                  },
+                  {
+                    "action": "iam.policy.delete"
+                  },
+                  {
+                    "action": "iam.service.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  },
+                  {
+                    "action": "iam.role.assign"
+                  },
+                  {
+                    "action": "resource-controller.group.update"
+                  },
+                  {
+                    "action": "resource-controller.group.delete"
+                  },
+                  {
+                    "action": "resource-controller.credential.retrieve_all"
+                  },
+                  {
+                    "action": "resource-controller.alias.delete"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "resource-controller.broker.update"
+                  },
+                  {
+                    "action": "resource-controller.broker.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.update"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag"
+                  },
+                  {
+                    "action": "resource-controller.binding.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update"
+                  },
+                  {
+                    "action": "resource-controller.alias.update"
+                  },
+                  {
+                    "action": "resource-controller.group.create"
+                  },
+                  {
+                    "action": "resource-controller.binding.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-access-tag"
+                  },
+                  {
+                    "action": "resource-controller.broker.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.delete"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/users/IBMid-5500093CW9/policies/f6d8edaa-3b86-4f7a-91ec-6c8093dc799d"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
